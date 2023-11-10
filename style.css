@@ -1,0 +1,59 @@
+
+
+
+
+  /* Apply a box-sizing rule to include padding and borders in the width */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Set a slimmer vertical size for the 'name' input */
+  #name {
+    width: 100%;
+    padding: 0px; /* Adjust the padding as needed */
+    margin-bottom: 16px;
+  }
+  
+  /* Set a slimmer vertical size for the 'email' input */
+  #email {
+    width: 100%;
+    padding: 0px; /* Adjust the padding as needed */
+    margin-bottom: 16px;
+  }
+  
+  /* Set a slimmer vertical size for the 'form-message' textarea */
+  #form-message {
+    width: 100%;
+    padding: 0px; /* Adjust the padding as needed */
+    margin-bottom: 16px;
+    height: 175px;
+  }
+  
+  /* Add some styling to the form for better presentation */
+  form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+  
+  button {
+    width: 77px;
+    height: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    border-style: groove;
+    background-color: white;
+  }
+  
+  main {
+    margin-top: 8px;
+  }
+  
